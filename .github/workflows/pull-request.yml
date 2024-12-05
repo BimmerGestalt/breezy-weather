@@ -3,8 +3,8 @@ name: Breezy Weather Pull Request CI
 on:
   pull_request:
     branches:
-      - main
       - dev
+      - gestalt
     paths-ignore:
       - ".editorconfig"
       - "docs/*"
@@ -36,10 +36,10 @@ jobs:
       - name: Set up Gradle
         uses: gradle/actions/setup-gradle@cc4fc85e6b35bafd578d5ffbc76a5518407e1af0 # v4.2.1
 
-      - name: Lint + Assemble basic flavor
-        run: ./gradlew spotlessCheck assembleBasicDebug
+      - name: Lint + Assemble gestalt flavor
+        run: ./gradlew spotlessCheck assembleGestaltDebug
 
       - uses: actions/upload-artifact@b4b15b8c7c6ac21ea08fcf65892d2ee8f75cf882 # v4.4.3
         with:
-          name: BreezyWeather_basicDebug.apk
-          path: app/build/outputs/apk/basic/debug/app-basic-universal-debug.apk
+          name: BreezyWeather_gestaltDebug.apk
+          path: app/build/outputs/apk/gestalt/debug/app-gestalt-universal-debug.apk

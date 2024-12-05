@@ -13,18 +13,8 @@
   <img alt="Jetpack Compose" src="https://img.shields.io/static/v1?style=for-the-badge&message=Jetpack+Compose&color=4285F4&logo=Jetpack+Compose&logoColor=FFFFFF&label="/>
   <img alt="Material You" src="https://custom-icon-badges.demolab.com/badge/material%20you-lightblue?style=for-the-badge&logoColor=333&logo=material-you"/>
   <br />
-  <img src="https://img.shields.io/github/license/breezy-weather/breezy-weather?style=for-the-badge" alt="License LGPL-3.0" />
-  <img src="https://img.shields.io/github/languages/code-size/breezy-weather/breezy-weather?style=for-the-badge" alt="GitHub code size in bytes" />
-  <br /><br />
-  <a href="https://github.com/breezy-weather/breezy-weather/releases/latest">
-      <img src="https://img.shields.io/github/v/release/breezy-weather/breezy-weather?color=purple&include_prereleases&logo=github&style=for-the-badge" alt="Download from GitHub" />
-  </a>
-  <a href="https://apt.izzysoft.de/fdroid/index/apk/org.breezyweather/">
-      <img src="https://img.shields.io/endpoint?url=https://apt.izzysoft.de/fdroid/api/v1/shield/org.breezyweather?color=purple&include_prereleases&logo=FDROID&style=for-the-badge" alt="Download from IzzyOnDroid repo" />
-  </a>
-  <a href="https://f-droid.org/packages/org.breezyweather/">
-      <img src="https://img.shields.io/f-droid/v/org.breezyweather?color=purple&include_prereleases&logo=FDROID&style=for-the-badge" alt="Download from F-Droid default repo" />
-  </a>
+  <img src="https://img.shields.io/github/license/BimmerGestalt/breezy-weather?style=for-the-badge" alt="License LGPL-3.0" />
+  <img src="https://img.shields.io/github/languages/code-size/BimmerGestalt/breezy-weather?style=for-the-badge" alt="GitHub code size in bytes" />
 </div>
 
 
@@ -34,7 +24,9 @@
 
 # Download
 
-<a href="https://github.com/breezy-weather/breezy-weather/releases">
+This is a fork adding BMW car app support. Please use the upstream if you don't need this feature:
+
+<a href="https://github.com/BimmerGestalt/breezy-weather/releases">
 <img src="https://user-images.githubusercontent.com/69304392/148696068-0cfea65d-b18f-4685-82b5-329a330b1c0d.png"
 alt="Get it on GitHub" align="center" height="80" /></a>
 

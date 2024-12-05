@@ -163,6 +163,10 @@ android {
             dimension = "default"
             versionNameSuffix = "_freenet"
         }
+        create("gestalt") {
+            dimension = "default"
+            versionNameSuffix = "_gestalt"
+        }
     }
 
     sourceSets {
@@ -171,6 +175,10 @@ android {
         }
         getByName("freenet") {
             java.srcDirs("src/src_freenet")
+        }
+        getByName("gestalt") {
+            java.srcDirs("src/src_freenet")
+            java.srcDirs("src/src_gestalt")
         }
     }
 

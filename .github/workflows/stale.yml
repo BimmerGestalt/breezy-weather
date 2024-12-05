@@ -1,9 +1,6 @@
 name: Close stale issues
 
 on:
-  # Daily
-  schedule:
-    - cron: '0 0 * * *'
   # Manual trigger
   workflow_dispatch:
     inputs:
